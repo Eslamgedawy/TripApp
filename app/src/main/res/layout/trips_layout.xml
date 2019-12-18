@@ -1,0 +1,34 @@
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:onClick="ln"
+    android:id="@+id/tab"
+    >
+
+    <TextView
+        android:id="@+id/tripName"
+        android:layout_width="306dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:textColor="#394a6d"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="237dp"
+        tools:layout_editor_absoluteY="52dp"
+        tools:text="tripya" />
+
+    <ImageView
+        android:id="@+id/startTripMap"
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:clickable="true"
+        android:onClick="startTripOnMap"
+        app:srcCompat="@drawable/placeholder" />
+
+</LinearLayout>
